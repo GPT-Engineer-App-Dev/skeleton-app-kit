@@ -1,12 +1,13 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from "react";
+import { Button } from "@/components/ui/button";
 
-const Index = () => {
+const ExampleComponent = () => {
   return (
-    <div className="text-center">
-      <h1 className="text-3xl">Your Blank Canvas</h1>
-      <p>Chat with the agent to start making edits.</p>
+    <div className="p-4">
+      <h1 className="text-2xl font-bold mb-4">Example Component</h1>
+      <Button variant="default">Click me</Button>
     </div>
   );
 };
 
-export default Index;
+export default ExampleComponent;
